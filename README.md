@@ -45,7 +45,6 @@ If you have Yices2 installed in the $YD directory, meaning that there are
 $YD/include and $YD/lib directories with Yices2 headers and libraries, then
 configure and build with 
 
-    cd build
     cmake .. -DYICES2_HOME=$YD
     make
     make check
@@ -54,7 +53,6 @@ If you have MathSAT5 installed in the $MD directory, meaning that there are
 $MD/include and $MD/lib directories with MathSAT5 headers and libraries, then 
 configure and build with
 
-    cd build
     cmake .. -DMATHSAT5_HOME=$MD
     make
     make check
@@ -64,7 +62,6 @@ cmake as expected.
 
 To compile sally in debug mode then configure and build with
 
-    cd build
     cmake .. -DCMAKE_BUILD_TYPE=Debug
     make
     make check
